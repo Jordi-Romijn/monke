@@ -7,10 +7,7 @@
         <li>Over</li>
       </ul>
     </div>
-    <FormulateInput type="text" label="What is your name?" v-model="value" />
-    <strong
-      >Hello <em>{{ value }}</em></strong
-    >
+    Hallo
   </div>
 </template>
 
