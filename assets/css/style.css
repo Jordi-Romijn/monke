@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    max-width: 100%;
+    margin: 0;
+    height: 4rem;
+    padding: 1.5rem 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header ul {
+    display: flex;
+  }
+  
+  .header li {
+    text-decoration: none;
+    display: flex;
+    margin-left: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }

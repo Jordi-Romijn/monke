@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <Header/>
+    <ContactHeader/>
     <nuxt/>
   </div>
 </template>

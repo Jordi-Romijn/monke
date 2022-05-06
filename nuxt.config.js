@@ -41,8 +41,7 @@ export default {
     '@braid/vue-formulate/nuxt',
   ],
   css: [
-    '@/assets/css/main.css',
-    '@/assets/css/responsive.css'
+    '@/assets/css/style.css',
   ],
   googleFonts: {
     families: {
