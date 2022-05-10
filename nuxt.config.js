@@ -3,7 +3,6 @@ export default {
   components: {
     dirs: [
       '~/components',
-      '~/components/base'
     ]
   },
   plugins: [
