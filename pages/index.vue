@@ -6,6 +6,13 @@
         {{ data.text }}
       </li>
     </ul>
+    {{ $t('hallo') }}
+    <nuxt-link 
+      v-for="locale in availableLocales"
+      :key="locale.code"
+      :to="switchLocalePath(locale.code)">
+      {{ locale.name }}
+    </nuxt-link>
   </div>
 </template>
 
@@ -16,5 +23,10 @@ export default {
       list: [{ text: "1" }, { text: "2" }, { text: "3" }],
     };
   },
+  computed: {
+    availableLocales() {
+      return this.$i18n.locales.filter((i) => i.code !== this.$i18n.locale)
+    }
+  }
 };
 </script>
