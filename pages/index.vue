@@ -11,7 +11,7 @@
       v-for="locale in availableLocales"
       :key="locale.code"
       :to="switchLocalePath(locale.code)">
-      {{ locale.name }}
+      {{ locale.name }}e
     </nuxt-link>
   </div>
 </template>
