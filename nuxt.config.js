@@ -62,5 +62,5 @@ export default {
   build: {
     parallel: true,
     cache: true,
-  },
+  }
 }
